@@ -1,11 +1,15 @@
 h2 {
     font-size: 40px;
     padding-top: 20px;
+    margin-bottom: 50px;
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: tomarik-display-shadow, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     margin-left: 15px;
+    background: url(../images/tree_bark.png);
 }
 
 p:first-child {
@@ -17,4 +21,17 @@ p:first-child {
 p {
     line-height: 16px;
     padding-top: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 875px;
+    height: 600px;
+    border: 1px red solid;
+}
+.col-sm {
+    text-align: center;
+    display: inline-block;
+    border: 1px red solid;
+    height: 600px;
 }
