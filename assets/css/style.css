@@ -1,7 +1,29 @@
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 20px;
     margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 46px;
+}
+
+#grass {
+    height: 150px;
+    margin-top: 20px;
+}
+
+#chosenanimal {
+    height: 150px;
+    margin-top: 20px;
 }
 
 body {
@@ -27,11 +49,11 @@ p {
     margin: 0 auto;
     max-width: 875px;
     height: 600px;
-    border: 1px red solid;
+    border: 1px #bdb4b4 dashed;
 }
 .col-sm {
     text-align: center;
     display: inline-block;
-    border: 1px red solid;
+    border: 1px #bdb4b4 dashed;
     height: 600px;
 }
